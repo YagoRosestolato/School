@@ -11,3 +11,4 @@ Route::controller(LoginController::class)->group(function () {
     Route::post('/login', 'store')->name('login.store');
     Route::get('/logout', 'destroy')->name('login.destroy');
 });
+
