@@ -11,7 +11,7 @@
         @csrf
         
         <div class="form-group">
-          <input type="text" name="email" class="form-control" value="">
+          <input type="text" name="email" class="form-control" value="yagorosestolato@gmail.com">
           @error('email')
             <span>{{ $message}}</span>
           @enderror
